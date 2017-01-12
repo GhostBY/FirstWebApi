@@ -14,7 +14,8 @@ namespace FirstWebApi.Models.Concrete
 
         public CarRepository()
         {
-            Add(new Car { CarID = "1", Company = "BMW", Model = "X5", Year = 2010, Price = 18500 });
+            Add(new Car { CarID = "", Company = "BMW", Model = "X5", Year = 2010, Price = 18500 });
+            Add(new Car { CarID = "", Company = "BMW", Model = "X6", Year = 2011, Price = 28500 });
         }
        public void Add(Car car)
         {
